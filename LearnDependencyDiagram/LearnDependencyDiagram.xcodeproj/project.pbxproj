@@ -14,6 +14,7 @@
 		308410082A02043500B0351E /* LearnDependencyDiagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308410072A02043500B0351E /* LearnDependencyDiagramTests.swift */; };
 		308410122A02043500B0351E /* LearnDependencyDiagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308410112A02043500B0351E /* LearnDependencyDiagramUITests.swift */; };
 		308410142A02043500B0351E /* LearnDependencyDiagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308410132A02043500B0351E /* LearnDependencyDiagramUITestsLaunchTests.swift */; };
+		308410212A0204D200B0351E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308410202A0204D200B0351E /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3084100D2A02043500B0351E /* LearnDependencyDiagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnDependencyDiagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		308410112A02043500B0351E /* LearnDependencyDiagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnDependencyDiagramUITests.swift; sourceTree = "<group>"; };
 		308410132A02043500B0351E /* LearnDependencyDiagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnDependencyDiagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		308410202A0204D200B0351E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				30840FF62A02042900B0351E /* LearnDependencyDiagramApp.swift */,
 				30840FF82A02042900B0351E /* ContentView.swift */,
+				308410202A0204D200B0351E /* FeedViewController.swift */,
 				30840FFA2A02043400B0351E /* Assets.xcassets */,
 				30840FFC2A02043400B0351E /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30840FF92A02042900B0351E /* ContentView.swift in Sources */,
+				308410212A0204D200B0351E /* FeedViewController.swift in Sources */,
 				30840FF72A02042900B0351E /* LearnDependencyDiagramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
