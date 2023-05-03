@@ -26,3 +26,9 @@ class FeedViewController: UIViewController {
         }
     }
 }
+
+class RemoteFeedLoader: FeedLoader {
+    func loadFeed(completion: ([String]) -> Void) {
+        // call load feed api
+    }
+}
