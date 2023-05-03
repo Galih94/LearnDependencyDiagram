@@ -32,3 +32,9 @@ class RemoteFeedLoader: FeedLoader {
         // call load feed api
     }
 }
+
+class LocalFeedLoader: FeedLoader {
+    func loadFeed(completion: ([String]) -> Void) {
+        // call load feed api local data (cache)
+    }
+}
