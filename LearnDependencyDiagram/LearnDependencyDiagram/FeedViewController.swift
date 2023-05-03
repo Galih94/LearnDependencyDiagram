@@ -38,3 +38,25 @@ class LocalFeedLoader: FeedLoader {
         // call load feed api local data (cache)
     }
 }
+
+struct Reachability {
+    static let networkAvailable = false
+}
+
+class RemoteWithLocalFallbackFeedService: FeedLoader {
+    let remote: RemoteFeedLoader
+    let local: LocalFeedLoader
+    
+    init(remote: RemoteFeedLoader, local: LocalFeedLoader) {
+        self.remote = remote
+        self.local = local
+    }
+    
+    func loadFeed(completion: ([String]) -> Void) {
+        if Reachability.networkAvailable {
+            remote.loadFeed(completion: completion)
+        } else {
+            local.loadFeed(completion: completion)
+        }
+    }
+}
